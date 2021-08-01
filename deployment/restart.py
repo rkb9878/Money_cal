@@ -2,7 +2,7 @@ import os
 import time
 from decouple import config
 
-os.system('sudo kill -9 $(sudo lsof -t -i:8003)')
+# os.system('sudo kill -9 $(sudo lsof -t -i:8003)')
 
 time.sleep(3)
 
